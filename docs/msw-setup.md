@@ -1,1 +1,182 @@
-IyBNU1cgU2V0dXAgaW4gT2xvIE1vYmlsZQoKKipNb2NrIFNlcnZpY2UgV29ya2VyIChNU1cpKiogaW50ZXJjZXB0cyBuZXR3b3JrIHJlcXVlc3RzIChHcmFwaFFMIHF1ZXJpZXMsIFJFU1QgY2FsbHMpIGFuZCByZXR1cm5zIGZha2UgcmVzcG9uc2VzLiBUaGlzIG1lYW5zIG91ciB0ZXN0cyBuZXZlciBoaXQgYSByZWFsIHNlcnZlciDigJQgdGhleSBydW4gZmFzdCwgb2ZmbGluZSwgYW5kIGFyZSBmdWxseSBwcmVkaWN0YWJsZS4KCj4gVGhlIE1TVyBmaWxlcyBsaXZlIGluOgo+IGBhcHBsaWNhdGlvbnMvb2xvLm5hdGl2ZS9zcmMvX19maXh0dXJlc19fL21zdy9gCgotLS0KCiMjIEZvbGRlciBzdHJ1Y3R1cmUKCmBgYAptc3cvCuKUnOKUgOKUgCBoYW5kbGVycy50cyAgICAgICAgICAgICAgIOKGkCBEZWZpbmVzIFdIQVQgdG8gaW50ZXJjZXB0IGFuZCBIT1cgdG8gcmVzcG9uZArilJzilIDilIAgc2VydmVyLnRzICAgICAgICAgICAgICAgICDihpAgU3RhcnRzIHRoZSBtb2NrIHNlcnZlciBmb3IgSmVzdCB0ZXN0cyAoTm9kZS5qcykK4pSc4pSA4pSAIHNlcnZlci1uYXRpdmUudHMgICAgICAgICDihpAgU3RhcnRzIHRoZSBtb2NrIHNlcnZlciBmb3IgUmVhY3QgTmF0aXZlIHJ1bnRpbWUK4pSU4pSA4pSAIG1zdy1tb2NrLXJlc3BvbnNlcy8gICAgICDihpAgRmFrZSBkYXRhIHJldHVybmVkIGJ5IGVhY2ggaGFuZGxlcgogICAg4pSc4pSA4pSAIG1lbnUtcXVlcnkudHMKICAgIOKUnOKUgOKUgCBtZW51LXBhZ2UtaGVhZGVycy50cwogICAg4pSc4pSA4pSAIHN1Y2Nlc3MtbWVudS1wYWdlLWhlYWRlcnMudHMKICAgIOKUnOKUgOKUgCBvZmZlcnMtcXVlcnkudHMKICAgIOKUnOKUgOKUgCBwb3J0aW9uLW1lbnUtaXRlbS1xdWVyeS50cwogICAg4pSc4pSA4pSAIHByZS1vcmRlci1lc3RpbWF0ZS1xdWVyeS50cwogICAg4pSc4pSA4pSAIHNhdmVkLXZvdWNoZXJzLXF1ZXJ5LnRzCiAgICDilJzilIDilIAgc2VuZC1mb3MtZXZlbnQudHMKICAgIOKUnOKUgOKUgCBzdG9yZS1xdWVyeS50cwogICAg4pSc4pSA4pSAIHN0b3JlLXNlYXJjaC1xdWVyeS50cwogICAg4pSc4pSA4pSAIHRpbWVkLW9yZGVyLXNsb3RzLXF1ZXJ5LnRzCiAgICDilJTilIDilIAgdmFsaWRhdGUtYmFza2V0LnRzCmBgYAoKLS0tCgojIyAxLiBNb2NrIHJlc3BvbnNlcyAoYG1zdy1tb2NrLXJlc3BvbnNlcy9gKQoKRWFjaCBmaWxlIGV4cG9ydHMgb25lIG9yIG1vcmUgSmF2YVNjcmlwdCBvYmplY3RzIHRoYXQgbWlycm9yIHRoZSBzaGFwZSBvZiBhIHJlYWwgR3JhcGhRTCBBUEkgcmVzcG9uc2UuIFRoZXNlIGFyZSB0aGUgImZha2UgYW5zd2VycyIgdGhlIG1vY2sgc2VydmVyIHdpbGwgcmV0dXJuLgoKRm9yIGV4YW1wbGUsIGB2YWxpZGF0ZS1iYXNrZXQudHNgIGxvb2tzIGxpa2U6CgpgYGB0cwpleHBvcnQgY29uc3Qgc3VjY2Vzc1ZhbGlkYXRlQmFza2V0ID0gewogIGRhdGE6IHsKICAgIHZhbGlkYXRlQmFza2V0OiB7CiAgICAgIGJhc2tldDogeyBpZDogJy4uLicsIGxpbmVzOiBbXSwgdG90YWw6IDAsIC8qIC4uLiAqLyB9LAogICAgICB2YWxpZGF0aW9uRXJyb3JzOiBbXSwKICAgIH0sCiAgfSwKfQpgYGAKClNvbWUgZmlsZXMgZXhwb3J0IG11bHRpcGxlIHZhcmlhbnRzIHRvIHNpbXVsYXRlIGRpZmZlcmVudCBzY2VuYXJpb3MgKGUuZy4gYSB2YWxpZCBzdG9yZSB2cy4gYW4gaW52YWxpZCBzdG9yZSkuIEZvciBleGFtcGxlLCBgc3RvcmUtcXVlcnkudHNgIGV4cG9ydHMgYGludmFsaWRTdG9yZVF1ZXJ5YCwgYGRhcmxpbmdodXJzdFN0b3JlUXVlcnlgLCBhbmQgYGhhbWlsdG9uU3RvcmVRdWVyeWAuCgotLS0KCiMjIDIuIFJlcXVlc3QgaGFuZGxlcnMgKGBoYW5kbGVycy50c2ApCgpgaGFuZGxlcnMudHNgIGlzIHRoZSBjZW50cmFsIGZpbGUgdGhhdCB0ZWxscyBNU1c6ICIqV2hlbiBhIHJlcXVlc3QgbWF0Y2hpbmcgdGhpcyBuYW1lIGNvbWVzIGluLCByZXNwb25kIHdpdGggdGhpcyBkYXRhLioiCgpJdCBpbXBvcnRzIG1vY2sgcmVzcG9uc2VzIGFuZCBtYXBzIHRoZW0gdG8gR3JhcGhRTCBvcGVyYXRpb25zOgoKYGBgdHMKaW1wb3J0IHsgZ3JhcGhxbCwgcmVzdCB9IGZyb20gJ21zdycKaW1wb3J0IHsgc3VjY2Vzc01lbnUgfSBmcm9tICcuL21zdy1tb2NrLXJlc3BvbnNlcy9tZW51LXF1ZXJ5JwoKZXhwb3J0IGNvbnN0IGhhbmRsZXJzID0gWwogIC8vIFdoZW4gdGhlIGFwcCBzZW5kcyBhICJtZW51IiBHcmFwaFFMIHF1ZXJ5LCByZXR1cm4gZmFrZSBtZW51IGRhdGEKICBncmFwaHFsLnF1ZXJ5KCdtZW51JywgKHJlcSwgcmVzLCBjdHgpID0+CiAgICByZXMoY3R4LmRhdGEoc3VjY2Vzc01lbnUuZGF0YSkpCiAgKSwKCiAgLy8gU29tZSBoYW5kbGVycyBicmFuY2ggYmFzZWQgb24gaW5wdXQgdmFyaWFibGVzCiAgZ3JhcGhxbC5xdWVyeSgnc3RvcmVRdWVyeScsIChyZXEsIHJlcywgY3R4KSA9PiB7CiAgICBpZiAocmVxLnZhcmlhYmxlcy5zdG9yZU5vID09PSAxMTExKSB7CiAgICAgIHJldHVybiByZXMoY3R4LmRhdGEoaW52YWxpZFN0b3JlUXVlcnkuZGF0YSkpICAgLy8gc2ltdWxhdGUgYW4gZXJyb3IKICAgIH0KICAgIHJldHVybiByZXMoY3R4LmRhdGEoaGFtaWx0b25TdG9yZVF1ZXJ5LmRhdGEpKSAgICAgLy8gaGFwcHkgcGF0aAogIH0pLAoKICAvLyBSRVNUIGVuZHBvaW50cyBhcmUgYWxzbyBpbnRlcmNlcHRlZCAoZS5nLiBhbmFseXRpY3Mgd2UgZG9uJ3QgbmVlZCkKICByZXN0LnBvc3QoJyovc3ltYm9saWNhdGUnLCAocmVxLCByZXMsIGN0eCkgPT4KICAgIHJlcyhjdHguc3RhdHVzKDQwMykpCiAgKSwKXQpgYGAKCioqSW4gc2hvcnQ6KiogaGFuZGxlcnMgZGVmaW5lICp3aGF0KiBnZXRzIGludGVyY2VwdGVkIGFuZCAqd2hpY2gqIG1vY2sgcmVzcG9uc2UgdG8gcmV0dXJuLgoKLS0tCgojIyAzLiBTZXJ2ZXIgc2V0dXAgKGBzZXJ2ZXIudHNgIC8gYHNlcnZlci1uYXRpdmUudHNgKQoKVGhlc2UgZmlsZXMgY3JlYXRlIHRoZSBhY3R1YWwgbW9jayBzZXJ2ZXIgaW5zdGFuY2UgYnkgcGFzc2luZyB0aGUgaGFuZGxlcnMgaW4uCgoqKkZvciBKZXN0IHRlc3RzKiog4oCUIGBzZXJ2ZXIudHNgOgoKYGBgdHMKaW1wb3J0IHsgc2V0dXBTZXJ2ZXIgfSBmcm9tICdtc3cvbm9kZScKaW1wb3J0IHsgaGFuZGxlcnMgfSBmcm9tICcuL2hhbmRsZXJzJwoKZXhwb3J0IGNvbnN0IHNlcnZlciA9IHNldHVwU2VydmVyKC4uLmhhbmRsZXJzKQpgYGAKCioqRm9yIFJlYWN0IE5hdGl2ZSBydW50aW1lKiog4oCUIGBzZXJ2ZXItbmF0aXZlLnRzYDoKCmBgYHRzCmltcG9ydCAncmVhY3QtbmF0aXZlLXVybC1wb2x5ZmlsbC9hdXRvJwppbXBvcnQgeyBzZXR1cFNlcnZlciB9IGZyb20gJ21zdy9uYXRpdmUnCmltcG9ydCB7IGhhbmRsZXJzIH0gZnJvbSAnLi9oYW5kbGVycycKCmV4cG9ydCBjb25zdCBzZXJ2ZXIgPSBzZXR1cFNlcnZlciguLi5oYW5kbGVycykKYGBgCgpUaGUgb25seSBkaWZmZXJlbmNlIGlzIHRoZSBpbXBvcnQgc291cmNlIChgbXN3L25vZGVgIHZzIGBtc3cvbmF0aXZlYCkgYW5kIHRoZSBVUkwgcG9seWZpbGwgbmVlZGVkIGJ5IFJlYWN0IE5hdGl2ZS4KCi0tLQoKIyMgNC4gVGVzdCBsaWZlY3ljbGUgaW50ZWdyYXRpb24KClRoZSBzZXJ2ZXIgaXMgd2lyZWQgaW50byBldmVyeSB0ZXN0IGF1dG9tYXRpY2FsbHkgdmlhIGB0b29scy9zZXR1cC10ZXN0cy5qc2A6CgpgYGBqcwovLyBTdGFydCBpbnRlcmNlcHRpbmcgcmVxdWVzdHMgYmVmb3JlIGFueSB0ZXN0IHJ1bnMKYmVmb3JlQWxsKCgpID0+IHNlcnZlci5saXN0ZW4oeyBvblVuaGFuZGxlZFJlcXVlc3Q6ICd3YXJuJyB9KSkKCi8vIFJlc2V0IGhhbmRsZXJzIGFmdGVyIGVhY2ggdGVzdCBzbyBwZXItdGVzdCBvdmVycmlkZXMgZG9uJ3QgbGVhawphZnRlckVhY2goKCkgPT4gc2VydmVyLnJlc2V0SGFuZGxlcnMoKSkKCi8vIFN0b3AgdGhlIHNlcnZlciBhZnRlciBhbGwgdGVzdHMgZmluaXNoCmFmdGVyQWxsKCgpID0+IHNlcnZlci5jbG9zZSgpKQpgYGAKClRoaXMgbWVhbnMgKiplaGVyeSB0ZXN0IGluIHRoZSBwcm9qZWN0KiogYXV0b21hdGljYWxseSBnZXRzIG1vY2tlZCBBUEkgcmVzcG9uc2VzIHdpdGhvdXQgYW55IGV4dHJhIHNldHVwLgoKLS0tCgojIyA1LiBIb3cgdG8gYWRkIGEgbmV3IG1vY2sKCioqU3RlcCAxLioqIENyZWF0ZSBhIHJlc3BvbnNlIGZpbGUgaW4gYG1zdy1tb2NrLXJlc3BvbnNlcy9gOgoKYGBgdHMKLy8gbXN3LW1vY2stcmVzcG9uc2VzL215LW5ldy1xdWVyeS50cwpleHBvcnQgY29uc3Qgc3VjY2Vzc015TmV3UXVlcnkgPSB7CiAgZGF0YTogewogICAgbXlOZXdRdWVyeTogeyAvKiBzaGFwZSBtYXRjaGluZyB5b3VyIEdyYXBoUUwgc2NoZW1hICovIH0sCiAgfSwKfQpgYGAKCioqU3RlcCAyLioqIEFkZCBhIGhhbmRsZXIgaW4gYGhhbmRsZXJzLnRzYDoKCmBgYHRzCmltcG9ydCB7IHN1Y2Nlc3NNeU5ld1F1ZXJ5IH0gZnJvbSAnLi9tc3ctbW9jay1yZXNwb25zZXMvbXktbmV3LXF1ZXJ5JwoKZXhwb3J0IGNvbnN0IGhhbmRsZXJzID0gWwogIC8vIC4uLiBleGlzdGluZyBoYW5kbGVycwogIGdyYXBocWwucXVlcnkoJ215TmV3UXVlcnknLCAocmVxLCByZXMsIGN0eCkgPT4KICAgIHJlcyhjdHguZGF0YShzdWNjZXNzTXlOZXdRdWVyeS5kYXRhKSkKICApLApdCmBgYAoKKipTdGVwIDMuKiogKE9wdGlvbmFsKSBPdmVycmlkZSBhIGhhbmRsZXIgaW4gYSBzcGVjaWZpYyB0ZXN0OgoKYGBgdHMKaW1wb3J0IHsgZ3JhcGhxbCB9IGZyb20gJ21zdycKaW1wb3J0IHsgc2VydmVyIH0gZnJvbSAnLi4vX19maXh0dXJlc19fL21zdy9zZXJ2ZXInCgp0ZXN0KCdoYW5kbGVzIGVycm9yIGNhc2UnLCAoKSA9PiB7CiAgc2VydmVyLnVzZSgKICAgIGdyYXBocWwucXVlcnkoJ215TmV3UXVlcnknLCAocmVxLCByZXMsIGN0eCkgPT4KICAgICAgcmVzKGN0eC5lcnJvcnMoW3sgbWVzc2FnZTogJ1NvbWV0aGluZyB3ZW50IHdyb25nJyB9XSkpCiAgICApLAogICkKICAvLyAuLi4gdGVzdCBjb2RlCn0pCmBgYAoKVGhlIG92ZXJyaWRlIG9ubHkgbGFzdHMgZm9yIHRoYXQgdGVzdCDigJQgYGFmdGVyRWFjaCgoKSA9PiBzZXJ2ZXIucmVzZXRIYW5kbGVycygpKWAgY2xlYXJzIGl0IGF1dG9tYXRpY2FsbHkuCgotLS0KCj4gKipOb3RlOioqIFRoZSBwcm9qZWN0IGN1cnJlbnRseSB1c2VzICoqTVNXIHYxLjMuMSoqIHdoaWNoIHVzZXMgdGhlIGAocmVxLCByZXMsIGN0eCkgPT5gIGNhbGxiYWNrIHN0eWxlLiBUaGUgbGF0ZXN0IE1TVyB2MiB1c2VzIGEgZGlmZmVyZW50IHN5bnRheCB3aXRoIGBIdHRwUmVzcG9uc2UuanNvbigpYC4gSWYvd2hlbiB1cGdyYWRpbmcsIHRoZSBoYW5kbGVycyB3aWxsIG5lZWQgdG8gYmUgbWlncmF0ZWQg4oCUIHNlZSB0aGUgW01TVyB2MiBtaWdyYXRpb24gZ3VpZGVdKGh0dHBzOi8vbXN3anMuaW8vZG9jcy9taWdyYXRpb25zLzEueC10by0yLngpLgo=
+# MSW Setup in Olo Mobile
+
+**Mock Service Worker (MSW)** intercepts network requests (GraphQL queries, REST calls) and returns fake responses. This means our tests never hit a real server — they run fast, offline, and are fully predictable.
+
+> The MSW files live in:
+> `applications/olo.native/src/__fixtures__/msw/`
+
+---
+
+## Folder structure
+
+```
+msw/
+├── handlers.ts              ← Defines WHAT to intercept and HOW to respond
+├── server.ts                ← Starts the mock server for Jest tests (Node.js)
+├── server-native.ts         ← Starts the mock server for React Native runtime
+└── msw-mock-responses/      ← Fake data returned by each handler
+    ├── menu-query.ts
+    ├── menu-page-headers.ts
+    ├── success-menu-page-headers.ts
+    ├── offers-query.ts
+    ├── portion-menu-item-query.ts
+    ├── pre-order-estimate-query.ts
+    ├── saved-vouchers-query.ts
+    ├── send-fos-event.ts
+    ├── store-query.ts
+    ├── store-search-query.ts
+    ├── timed-order-slots-query.ts
+    └── validate-basket.ts
+```
+
+---
+
+## 1. Mock responses (`msw-mock-responses/`)
+
+Each file exports one or more JavaScript objects that mirror the shape of a real GraphQL API response. These are the "fake answers" the mock server will return.
+
+For example, `validate-basket.ts` looks like:
+
+```ts
+export const successValidateBasket = {
+  data: {
+    validateBasket: {
+      basket: { id: '...', lines: [], total: 0, /* ... */ },
+      validationErrors: [],
+    },
+  },
+}
+```
+
+Some files export multiple variants to simulate different scenarios (e.g. a valid store vs. an invalid store). For example, `store-query.ts` exports `invalidStoreQuery`, `darlinghurstStoreQuery`, and `hamiltonStoreQuery`.
+
+---
+
+## 2. Request handlers (`handlers.ts`)
+
+`handlers.ts` is the central file that tells MSW: *"When a request matching this name comes in, respond with this data."*
+
+It imports mock responses and maps them to GraphQL operations:
+
+```ts
+import { graphql, rest } from 'msw'
+import { successMenu } from './msw-mock-responses/menu-query'
+
+export const handlers = [
+  // When the app sends a "menu" GraphQL query, return fake menu data
+  graphql.query('menu', (req, res, ctx) =>
+    res(ctx.data(successMenu.data))
+  ),
+
+  // Some handlers branch based on input variables
+  graphql.query('storeQuery', (req, res, ctx) => {
+    if (req.variables.storeNo === 1111) {
+      return res(ctx.data(invalidStoreQuery.data))   // simulate an error
+    }
+    return res(ctx.data(hamiltonStoreQuery.data))     // happy path
+  }),
+
+  // REST endpoints are also intercepted (e.g. analytics we don't need)
+  rest.post('*/symbolicate', (req, res, ctx) =>
+    res(ctx.status(403))
+  ),
+]
+```
+
+**In short:** handlers define *what* gets intercepted and *which* mock response to return.
+
+---
+
+## 3. Server setup (`server.ts` / `server-native.ts`)
+
+These files create the actual mock server instance by passing the handlers in.
+
+**For Jest tests** — `server.ts`:
+
+```ts
+import { setupServer } from 'msw/node'
+import { handlers } from './handlers'
+
+export const server = setupServer(...handlers)
+```
+
+**For React Native runtime** — `server-native.ts`:
+
+```ts
+import 'react-native-url-polyfill/auto'
+import { setupServer } from 'msw/native'
+import { handlers } from './handlers'
+
+export const server = setupServer(...handlers)
+```
+
+The only difference is the import source (`msw/node` vs `msw/native`) and the URL polyfill needed by React Native.
+
+---
+
+## 4. Test lifecycle integration
+
+The server is wired into every test automatically via `tools/setup-tests.js`:
+
+```js
+// Start intercepting requests before any test runs
+beforeAll(() => server.listen({ onUnhandledRequest: 'warn' }))
+
+// Reset handlers after each test so per-test overrides don't leak
+afterEach(() => server.resetHandlers())
+
+// Stop the server after all tests finish
+afterAll(() => server.close())
+```
+
+This means **every test in the project** automatically gets mocked API responses without any extra setup.
+
+---
+
+## 5. How to add a new mock
+
+**Step 1.** Create a response file in `msw-mock-responses/`:
+
+```ts
+// msw-mock-responses/my-new-query.ts
+export const successMyNewQuery = {
+  data: {
+    myNewQuery: { /* shape matching your GraphQL schema */ },
+  },
+}
+```
+
+**Step 2.** Add a handler in `handlers.ts`:
+
+```ts
+import { successMyNewQuery } from './msw-mock-responses/my-new-query'
+
+export const handlers = [
+  // ... existing handlers
+  graphql.query('myNewQuery', (req, res, ctx) =>
+    res(ctx.data(successMyNewQuery.data))
+  ),
+]
+```
+
+**Step 3.** (Optional) Override a handler in a specific test:
+
+```ts
+import { graphql } from 'msw'
+import { server } from '../__fixtures__/msw/server'
+
+test('handles error case', () => {
+  server.use(
+    graphql.query('myNewQuery', (req, res, ctx) =>
+      res(ctx.errors([{ message: 'Something went wrong' }]))
+    ),
+  )
+  // ... test code
+})
+```
+
+The override only lasts for that test — `afterEach(() => server.resetHandlers())` clears it automatically.
+
+---
+
+> **Note:** The project currently uses **MSW v1.3.1** which uses the `(req, res, ctx) =>` callback style. The latest MSW v2 uses a different syntax with `HttpResponse.json()`. If/when upgrading, the handlers will need to be migrated — see the [MSW v2 migration guide](https://mswjs.io/docs/migrations/1.x-to-2.x).
