@@ -188,16 +188,16 @@ MSW v2 introduced **breaking changes** to the handler syntax. It is not a drop-i
 **v1 (current):**
 
 ```ts
-graphql.query('menu', (req, res, ctx) =>
-  res(ctx.data(successMenu.data))
+graphql.query('myNewQuery', (req, res, ctx) =>
+  res(ctx.data(successMyNewQuery.data))
 )
 ```
 
 **v2 equivalent:**
 
 ```ts
-graphql.query('menu', () =>
-  HttpResponse.json({ data: successMenu.data })
+graphql.query('myNewQuery', () =>
+  HttpResponse.json({ data: successMyNewQuery.data })
 )
 ```
 
