@@ -180,3 +180,35 @@ The override only lasts for that test — `afterEach(() => server.resetHandlers(
 ---
 
 > **Note:** The project currently uses **MSW v1.3.1** which uses the `(req, res, ctx) =>` callback style. The latest MSW v2 uses a different syntax with `HttpResponse.json()`. If/when upgrading, the handlers will need to be migrated — see the [MSW v2 migration guide](https://mswjs.io/docs/migrations/1.x-to-2.x).
+
+## 6. MSW v1 vs v2 — What changes if you upgrade?
+
+MSW v2 introduced **breaking changes** to the handler syntax. It is not a drop-in upgrade — every handler in `handlers.ts` will need to be manually rewritten.
+
+**v1 (current):**
+
+```ts
+graphql.query('menu', (req, res, ctx) =>
+  res(ctx.data(successMenu.data))
+)
+```
+
+**v2 equivalent:**
+
+```ts
+graphql.query('menu', () =>
+  HttpResponse.json({ data: successMenu.data })
+)
+```
+
+Key differences in v2:
+
+| v1 | v2 |
+|---|---|
+| `(req, res, ctx) =>` callback | Simple resolver function, no `res`/`ctx` |
+| `res(ctx.data(...))` | `HttpResponse.json(...)` |
+| `res(ctx.errors(...))` | `HttpResponse.json({ errors: [...] })` |
+| `res(ctx.status(403))` | `new HttpResponse(null, { status: 403 })` |
+| `import { rest } from 'msw'` | `import { http } from 'msw'` (`rest` is renamed) |
+
+The [MSW v2 migration guide](https://mswjs.io/docs/migrations/1.x-to-2.x) walks through all the changes in detail.
