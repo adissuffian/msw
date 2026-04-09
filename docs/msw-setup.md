@@ -213,9 +213,9 @@ Key differences in v2:
 
 The [MSW v2 migration guide](https://mswjs.io/docs/migrations/1.x-to-2.x) walks through all the changes in detail.
 
-## 7. Home screen: when to use MSW vs normal mocks
+## 7. When to use MSW vs normal mocks
 
-Not every Home-screen flow should use MSW.
+Not everything should use MSW e.g. Home screen
 
 ### Do not use MSW for these Home flows
 
