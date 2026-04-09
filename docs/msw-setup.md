@@ -212,3 +212,59 @@ Key differences in v2:
 | `import { rest } from 'msw'` | `import { http } from 'msw'` (`rest` is renamed) |
 
 The [MSW v2 migration guide](https://mswjs.io/docs/migrations/1.x-to-2.x) walks through all the changes in detail.
+
+## 7. Home screen: when to use MSW vs normal mocks
+
+Not every Home-screen flow should use MSW.
+
+### Do not use MSW for these Home flows
+
+These are better tested with normal hook, config, or state mocks:
+
+- **Country selector** (`SelectCountryScene`)  
+  This screen is **not network-driven**. The list of countries is defined locally in the component and the selected country is managed through the config provider and storage.
+
+- **Home shell / Start Your Order modal opening** (`HomeScene` / `NewHomeScene`)  
+  The screen-level behavior is mostly controlled by:
+  - `useConfig()`
+  - feature flags
+  - navigation
+  - modal state
+  - redirect hooks such as `useDeliveryPickupRedirect()`
+
+For these cases, prefer mocking the relevant hook or provider directly instead of adding an MSW handler.
+
+### Use MSW for these Home-triggered flows
+
+MSW becomes useful **after the user starts an order flow** from Home, because those paths depend on backend data.
+
+The existing handlers already cover the main network-driven flows:
+
+- `storeQuery`
+- `storeSearchQuery`
+- `timedOrderSlotsQuery`
+- `preOrderEstimate`
+- `offersQuery`
+- `savedVouchers`
+- `menu`
+- `menuPageHeaders`
+- `validateBasket`
+- `sendFosEvent`
+
+### Practical rule of thumb
+
+- If the Home behavior is deciding **what UI to show** or **which modal/screen to open**, use normal mocks.
+- If the Home behavior is loading **store, ordering, menu, offer, or voucher data**, use MSW.
+
+### Example: Start Your Order
+
+For the Home screen showing **Delivery** and **Pick Up**:
+
+- Test the appearance of the sheet and buttons with normal component/hook mocks.
+- Test what happens **after tapping Delivery or Pick Up** with MSW, because the downstream flow may call:
+  - `storeQuery`
+  - `storeSearchQuery`
+  - `timedOrderSlotsQuery`
+  - `preOrderEstimate`
+
+This keeps tests accurate and avoids creating fake MSW handlers for UI that never makes a network request.
